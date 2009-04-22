@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CucumberTfs", "CucumberTFS\CucumberTfs.csproj", "{8C3FBF18-0B62-404A-8D9E-0BB09ACFB0DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D983858-B640-4A16-9BB3-54D49DB087D5}"
+	ProjectSection(SolutionItems) = preProject
+		CucumberTFS.vsmdi = CucumberTFS.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CucumberTFS.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C3FBF18-0B62-404A-8D9E-0BB09ACFB0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FBF18-0B62-404A-8D9E-0BB09ACFB0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FBF18-0B62-404A-8D9E-0BB09ACFB0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FBF18-0B62-404A-8D9E-0BB09ACFB0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
