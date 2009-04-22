@@ -14,9 +14,6 @@ namespace CucumberTfs
 
             var writer = new ScenarioWriter(repository.GetScenarios());
             writer.Write();
-
-            var runner = new CucumberRunner();
-            runner.Run(arguments.Rest);
         }
     }
 }
